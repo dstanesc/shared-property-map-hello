@@ -1,6 +1,6 @@
 {
   "name": "shared-property-map-hello",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@dstanesc/shared-property-map": "file:../../pub/shared-property-map/dstanesc-shared-property-map-0.0.10.tgz",
