@@ -23,6 +23,11 @@ function App() {
         sharedMap.set("keyZero", "abc");
         sharedMap.commit();
       }
+
+      sharedMap.forEach((value, key) => {
+        updateLocalModel(key, value)
+      });
+
       setSharedPropertyMap(sharedMap);
     }
     init();
